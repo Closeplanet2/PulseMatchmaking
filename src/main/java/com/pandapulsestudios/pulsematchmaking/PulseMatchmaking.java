@@ -1,17 +1,11 @@
 package com.pandapulsestudios.pulsematchmaking;
 
+import com.pandapulsestudios.pulsematchmaking.Interfaces.LobbyCallbacks;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.HashMap;
 
 public final class PulseMatchmaking extends JavaPlugin {
 
-    @Override
-    public void onEnable() {
-        // Plugin startup logic
-
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+    public static HashMap<String, LobbyCallbacks> networkLobbies = new HashMap<>();
 }

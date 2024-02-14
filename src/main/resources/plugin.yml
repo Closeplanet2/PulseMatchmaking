@@ -1,5 +1,5 @@
 name: PulseMatchmaking
-version: 1.0.`-a
+version: 1.1.1-a
 main: com.pandapulsestudios.pulsematchmaking.PulseMatchmaking
 authors: [Closeplanet2, PandaPulseStudios]
 api-version: 1.20

@@ -1,0 +1,6 @@
+name: PulseMatchmaking
+version: 1.0.1-a
+main: com.pandapulsestudios.pulsematchmaking.PulseMatchmaking
+authors: [Closeplanet2, PandaPulseStudios]
+depend: [PulseCore]
+api-version: 1.20
